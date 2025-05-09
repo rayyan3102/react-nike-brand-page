@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --red: #d01c28;
+    --grey: #2e2e2e;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+nav{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ max-width: 1440px;
+ height: 72px;
+ margin: 0 auto;
+}
+
+nav ul{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    
+    
+}
+
+nav ul li{
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+}
+
+nav button{
+    cursor: pointer;
+    all:unset;
+    padding: 4px 16px;
+    background-color: var(--red);
+    color: white;
+}
+
+
+
+.contain{
+    display: flex;
+    width: 1144px;
+    /* height: 613px; */
+    margin: auto auto;
+}
+
+.left{
+    width: 595px;
+    /* height: 613px; */
+    
+}
+
+.left h1{
+    font-size: 105px;
+    font-weight: 800;
+    line-height: 102px;
+    height: 306px;
+    width: 595px;
+}
+
+.left p{
+    color: var(--grey);
+    height: 91px;
+    width: 380px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.buttons{
+    gap: 40px;
+    display: flex;
+}
+
+.btn1{
+    cursor: pointer;
+    padding: 6px 16px;
+    background-color: #d01c28;
+    color: white;
+    border: none;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+}
+
+.btn2{
+    cursor: pointer;
+    padding: 6px 16px;
+    background-color: white;
+    color: var(--grey);
+    border-color: var(--grey);
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    border: 1px solid var(--grey);
+    
+}
+
+.shop{
+    margin: 40px 0px;
+    width: 151px;
+    height: 67px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.shop span{
+    font-family: 'Inter',sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 100%; 
+    color: #2e2e2e;
+}
+
+.shop .images{
+    display: flex;
+    gap: 12px;
+}
